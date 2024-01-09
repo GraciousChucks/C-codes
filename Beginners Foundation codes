@@ -1,4 +1,4 @@
-This program takes two integers as input and uses the add function to compute their sum
+//This program takes two integers as input and uses the add function to compute their sum
 #include <iostream>
 
 using namespace std;
@@ -17,3 +17,24 @@ int main() {
   cout << "The sum is " << sum << endl;
   return 0;
 }
+
+
+
+//This program demonstrates the use of the increment (++) and decrement (--) operators to increase or decrease the value of a variable.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+int count = 5;
+
+   cout << "count = " << count << endl;
+   count++; // equivalent to count = count + 1
+   cout << "count after increment: " << count << endl;
+
+   count--; // equivalent to count = count - 1
+   cout << "count after decrement: " << count << endl;
+
+   return 0;
+}
+
